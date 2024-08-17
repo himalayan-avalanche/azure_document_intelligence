@@ -6,8 +6,20 @@ https://learn.microsoft.com/en-us/python/api/overview/azure/ai-documentintellige
 ### Installing the python form recognizer livbrary. 
 python -m pip install azure-ai-documentintelligence
 
+### Create a Cognitive Services or Document Intelligence resource
+https://portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer
+
+
+<img width="932" alt="image" src="https://github.com/user-attachments/assets/9d9258b0-782d-4991-b97b-84f0edc25162">
+
+
 ### The azure module contains submodule ai, core and profiles. The azure.ai submodule contains documentintelligence and formrecognizer
 <img width="395" alt="image" src="https://github.com/user-attachments/assets/d142b3a9-3d2e-4422-ab42-36226a96e8e9">
+
+### Create resource group.
+### Getting ednpoint and keys.
+<img width="1302" alt="image" src="https://github.com/user-attachments/assets/51885571-559a-4e13-a1b8-06ee7dd7e3fe">
+
 
 
 ### The azure.ai.documentintelligence module contains submodules DocumentIntelligenceAdministrationClient','DocumentIntelligenceClien'
