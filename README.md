@@ -6,8 +6,8 @@ https://learn.microsoft.com/en-us/python/api/overview/azure/ai-documentintellige
 
 Azure Document Intelligences (ADI) allows to perform various tasks powered by powerfull GPT models. The subfolders in this directory will focus on some of the most useful capabolities of ADI.
 
-<img width="776" alt="image" src="https://github.com/user-attachments/assets/a70735be-f5ed-42f8-9430-faa64ea281c2">
+# Key Concepts
 
-<img width="819" alt="image" src="https://github.com/user-attachments/assets/2f6e4460-4525-4e14-972d-1e05e6f406f3">
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/746a5059-8d00-4b13-afdd-cc6dd882bf5c">
 
 <img width="739" alt="image" src="https://github.com/user-attachments/assets/63a2e760-ea89-4b12-a2ae-0851fe2ead46">
