@@ -8,6 +8,6 @@ Azure Document Intelligences (ADI) allows to perform various tasks powered by po
 
 # Key Concepts
 
-<img width="743" alt="image" src="https://github.com/user-attachments/assets/746a5059-8d00-4b13-afdd-cc6dd882bf5c">
+  <img width="743" alt="image" src="https://github.com/user-attachments/assets/746a5059-8d00-4b13-afdd-cc6dd882bf5c">
 
-<img width="739" alt="image" src="https://github.com/user-attachments/assets/63a2e760-ea89-4b12-a2ae-0851fe2ead46">
+  <img width="739" alt="image" src="https://github.com/user-attachments/assets/63a2e760-ea89-4b12-a2ae-0851fe2ead46">
