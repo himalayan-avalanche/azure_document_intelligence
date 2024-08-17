@@ -11,14 +11,15 @@ https://portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer
 
 <img width="932" alt="image" src="https://github.com/user-attachments/assets/9d9258b0-782d-4991-b97b-84f0edc25162">
 
+### Getting ednpoint and keys.
+Using the end point and api key, we can initiate a connection to axure document intelligence.
+
+<img width="1302" alt="image" src="https://github.com/user-attachments/assets/51885571-559a-4e13-a1b8-06ee7dd7e3fe">
+
+## Next understaidng modeuls and submodules offered within document intelligence.
 
 ### The azure module contains submodule ai, core and profiles. The azure.ai submodule contains documentintelligence and formrecognizer
 <img width="395" alt="image" src="https://github.com/user-attachments/assets/d142b3a9-3d2e-4422-ab42-36226a96e8e9">
-
-### Create resource group.
-### Getting ednpoint and keys.
-<img width="1302" alt="image" src="https://github.com/user-attachments/assets/51885571-559a-4e13-a1b8-06ee7dd7e3fe">
-
 
 
 ### The azure.ai.documentintelligence module contains submodules DocumentIntelligenceAdministrationClient','DocumentIntelligenceClien'
