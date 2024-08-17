@@ -2,16 +2,16 @@
 
 https://learn.microsoft.com/en-us/python/api/overview/azure/ai-documentintelligence-readme?view=azure-python-preview
 
-### Installing the python form recognizer livbrary. 
+## Installing the python form recognizer livbrary. 
 python -m pip install azure-ai-documentintelligence
 
-### Create a Cognitive Services or Document Intelligence resource
+## Create a Cognitive Services or Document Intelligence resource
 https://portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer
 
 
 <img width="932" alt="image" src="https://github.com/user-attachments/assets/9d9258b0-782d-4991-b97b-84f0edc25162">
 
-### Getting ednpoint and keys.
+## Getting ednpoint and keys.
 Using the end point and api key, we can initiate a connection to axure document intelligence.
 
 <img width="1302" alt="image" src="https://github.com/user-attachments/assets/51885571-559a-4e13-a1b8-06ee7dd7e3fe">
