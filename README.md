@@ -16,7 +16,8 @@ python -m pip install azure-ai-documentintelligence
 <img width="436" alt="image" src="https://github.com/user-attachments/assets/2ee5723b-b05c-439b-8105-f4698bbbc850">
 
 ##### The azure.ai.formrecognizer module contains submodules such as DocumentAnalysisClient, FormRecognizerClient among many others.
-<img width="433" alt="image" src="https://github.com/user-attachments/assets/0f460571-d0a0-4a5c-99f4-45b46db2bf17">
+<img width="423" alt="image" src="https://github.com/user-attachments/assets/7880fed7-ef83-42df-bb8b-66a9c3877108">
+
 
 
 
