@@ -2,7 +2,7 @@
 
 https://learn.microsoft.com/en-us/python/api/overview/azure/ai-documentintelligence-readme?view=azure-python-preview
 
-## 1. Installing the python form recognizer livbrary. 
+## 1. Installing the python form recognizer library. 
 python -m pip install azure-ai-documentintelligence
 
 ## 2. Create a Cognitive Services or Document Intelligence resource
