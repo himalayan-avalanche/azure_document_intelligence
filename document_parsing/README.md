@@ -95,4 +95,10 @@ The pages field contains documents content page by page, which can be parsed usi
 
 ```python
 adi_response['pages'][0].keys()
+##### dict_keys(['pageNumber', 'angle', 'width', 'height', 'unit', 'words', 'lines', 'spans'])
+```
+There is only one page in this input document. We can count total number of words in the document by:
+```python
+len(adi_response['pages'][0]['words'])
+##### 253
 ```
