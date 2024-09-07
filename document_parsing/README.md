@@ -70,14 +70,14 @@ file_data = open(file_name, "rb")
 adi_response=get_azure_parsed_contents(file_data)
 en_time=time.time()
 print(f"Time elapsed: {np.round(en_time-st_time,2)} seconds.")
-
-Time elapsed: 54.5 seconds.
+##### Time elapsed: 13.53 seconds.
 
 print(type(adi_response))
-<class 'azure.ai.documentintelligence.models._models.AnalyzeResult'>
+##### <class 'azure.ai.documentintelligence.models._models.AnalyzeResult'>
 
 print(adi_response.keys())
-dict_keys(['apiVersion', 'modelId', 'stringIndexType', 'content', 'pages', 'tables', 'paragraphs', 'styles', 'contentFormat', 'sections', 'figures'])
+##### dict_keys(['apiVersion', 'modelId', 'stringIndexType', 'content', 'pages', 'tables', 'styles', 'documents', 'contentFormat'])
+
 
 
 
