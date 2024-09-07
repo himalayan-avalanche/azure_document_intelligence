@@ -78,10 +78,10 @@ print(type(adi_response))
 print(adi_response.keys())
 ##### dict_keys(['apiVersion', 'modelId', 'stringIndexType', 'content', 'pages', 'tables', 'styles', 'documents', 'contentFormat'])
 
-print(adi_response['modelId'])
-##### prebuilt-invoice
-
-adi_response['content']
-##### 'Spa\nSupplies\n68 Vroom Street,\nMedalia City,\nMM 88531\nPhone: 222-222-9000\nFax:\n222-222-9001\nINVOICE\nEmail: tonsofcars@it.com\nBill To:\nOlympic World Hotel.\n55 Comfort Street\nMedalia City,\nMM 88531\nInvoice #:\nPLC0920\nInvoice Date:\nMarch 2,20X3\nCustomer ID:\n124\nVendor No:\n15\nTO number:\nGSQ0415DB0037\nQuantity\nItems\nUnits\nDescri\nDiscount %\nTaxable\nUnit Price\nTotal\n14\nMTBL\n1\nMassage tables\nN/A\nN/A\n$2,300\n$32,200\n-\n14\nTH\n1\nTowel heaters\n-\nN/A\nN/A\n$768\n$10,752\n7\nEWCH\nI\n1\nEntry-way chairs\nN/A\nN/A\n$1,136\n$7,952\n14\nWAX\n1\nWax heaters\nN/A\nN/A\n$987\n$13,818\n16\nSLOU\n1\nSpa loungers\nN/A!\nN/A\n$979\n$15,616\n4\nHTUB\n1\nHot tub\nN/A\nN/A\n$50,613\n$202,453\n12\nPEDC\nI\n1\nPedicure chair\nN/A\nN/A\n$3,456\n$41,472\n4\nDRY\nI\n2\nManicure and Pedicure dryer\nN/A\nN/A\n$1,456\n$5,824\n10\nMANI\n1\n1\nManicure tables\nN/A\nI\nN/A ;\n$2,488\n$24,880\n-\n-\nI\nI\n-\nTotal\n$354,967\nDISCLAIMER: The information contained herein is of a general nature and was created for training purposes and is not intended to\naddress the circumstances of any particular audit engagement. This training is a work of fiction. Any names of persons,\ncompanies, events or incidents, are fictitious. Any resemblance to actual persons, living or dead, companies or actual events is\npurely coincidental.\nInternal use only\n@ 2022 KPMG LLP, a Delaware limited liability partnership and a member firm of the KPMG global organization of independent member firms affiliated with KPMG\nInternational Limited, a private English company limited by guarantee. All rights reserved.'
-
+apiVersion:       This is API version used. The current api version is "'2024-02-29-preview'"
+modelId:          This is model ID used. Here it is "prebuilt-invoice"
+content:          This is content of the document as parsed by ADI client.
+pages:            Number of pages in the input document.
+tables:           This tables content in the document. Tables includes list of any table like content in the input documents and not necsssarily explit tables from document.
+documents:        Contains document specific contents such as ['docType', 'boundingRegions', 'fields', 'confidence', 'spans'].
 
