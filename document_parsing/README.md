@@ -125,5 +125,22 @@ adi_response['pages'][0]['unit']
 adi_response['pages'][0].keys()
 ##### dict_keys(['pageNumber', 'angle', 'width', 'height', 'unit', 'words', 'lines', 'spans'])
 
+page=adi_response.pages[0]
+line=page['lines'][0]
+
+print(line)
+##### {'content': 'Spa', 'polygon': [2.4927, 1.0217, 3.6913, 1.0026, 3.7056, 1.6185, 2.507, 1.6328], 'spans': [{'offset': 0, 'length': 3}]}
+
+### Here
+##### content: text content
+##### polygon: Polygon here describes the four corners of a rectangular boundary around the recognized text.
+	The points follow the sequence of:
+	1.	Top-left corner (x1, y1)
+	2.	Top-right corner (x2, y2)
+	3.	Bottom-right corner (x3, y3)
+	4.	Bottom-left corner (x4, y4)
+##### spans: span of the text i.e. offset and length of text on the page.
+
 
 ```
+
