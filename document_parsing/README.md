@@ -119,6 +119,9 @@ adi_response['pages'][0]['width']
 adi_response['pages'][0]['height']
 ##### 11
 
+adi_response['pages'][0]['unit']
+##### inch
+
 adi_response['pages'][0].keys()
 ##### dict_keys(['pageNumber', 'angle', 'width', 'height', 'unit', 'words', 'lines', 'spans'])
 
