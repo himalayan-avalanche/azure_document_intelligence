@@ -1,6 +1,17 @@
-# Exploiting Azure Document Intelligence Capabilities
+#### Document Parsing
 
-https://learn.microsoft.com/en-us/python/api/overview/azure/ai-documentintelligence-readme?view=azure-python-preview
+Using Azure Document Intelligence (ADI), once can parse various document types such as pdf, text, word, images etc and various content types such as paragraphs, tables, image info. The ADI has many prebuild models to choose from, and often they do better job than default layout model as document type specific models are fine tunes for parsing from specific type of documents. Some of the prebuilt model types are:
 
-## Document Summarization
+1. Invoice, Model ID: prebuilt-invoice
+2. Business Card, Model ID: prebuilt-businessCard
+3. Bank Statement, Model ID: prebuilt-bankStatement
+4. Tax Documents, Model ID: prebuilt-tax.us
+5. Contract Document, Model ID: prebuilt-contract
+6. Check, Model ID: prebuilt-check
+7. health Insuarce Card, Model ID: prebuilt-healthInsuranceCard.us
+8. ID Document, Model ID: prebuilt-idDocument
+9. Morgage, Model ID: prebuilt-mortgage
+10. Pay Stub, Model ID: prebuilt-paystub
 
+
+Refer this link for model details: : https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/language-support-prebuilt?view=doc-intel-4.0.0&tabs=languages%2Cthermal
