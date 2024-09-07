@@ -11,7 +11,7 @@ https://portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer
 
 <img width="932" alt="image" src="https://github.com/user-attachments/assets/9d9258b0-782d-4991-b97b-84f0edc25162">
 
-## 3. Getting ednpoint and keys.
+## 3. Getting endpoint and keys.
 Using the end point and api key, we can initiate a connection to axure document intelligence.
 
 <img width="1302" alt="image" src="https://github.com/user-attachments/assets/51885571-559a-4e13-a1b8-06ee7dd7e3fe">
