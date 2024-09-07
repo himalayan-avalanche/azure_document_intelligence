@@ -86,3 +86,13 @@ pages:            Number of pages in the input document.
 tables:           This tables content in the document. Tables includes list of any table like content in the input documents and not necsssarily explit tables from document.
 documents:        Contains document specific contents such as ['docType', 'boundingRegions', 'fields', 'confidence', 'spans'].
 """
+
+```
+
+### Parsing Document Level and Table level Data Elements
+
+The pages field contains documents content page by page, which can be parsed using python to extract document level data elements.
+
+```python
+adi_response['pages'][0].keys()
+```
