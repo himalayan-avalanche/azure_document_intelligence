@@ -18,5 +18,6 @@ Refer this link for model details: : https://learn.microsoft.com/en-us/azure/ai-
 
 Here is an example of supported ID Document Model ID:
 
-<img width="761" alt="image" src="https://github.com/user-attachments/assets/51a94000-8fe6-4039-afbe-24c9150e5ff6">
+<img width="735" alt="image" src="https://github.com/user-attachments/assets/fcdebba4-ffbd-41fb-ae6f-3f09ae7821b4">
+
 
