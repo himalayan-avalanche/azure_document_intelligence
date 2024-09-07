@@ -1,4 +1,4 @@
-#### Document Parsing
+# Document Parsing
 
 Using Azure Document Intelligence (ADI), once can parse various document types such as pdf, text, word, images etc and various content types such as paragraphs, tables, image info. The ADI has many prebuild models to choose from, and often they do better job than default layout model as document type specific models are fine tunes for parsing from specific type of documents. Some of the prebuilt model types are:
 
