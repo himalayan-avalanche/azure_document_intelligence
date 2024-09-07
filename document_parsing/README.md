@@ -25,10 +25,57 @@ Refer this link for model details: : https://learn.microsoft.com/en-us/azure/ai-
 <img width="725" alt="image" src="https://github.com/user-attachments/assets/bd741971-938c-4ba2-9249-74f59bae9cd7">
 
 
+## Parsing the document content using Python API for ADI
 
 ```python
-def hello_world():
-    print("Hello, World!")
+import os
+import time
+import numpy as np
+import openai
+from openai import AzureOpenAI
+from importlib import reload
+import sys
 
-if __name__ == "__main__":
-    hello_world()
+from azure.core.credentials import AzureKeyCredential
+from azure.ai.formrecognizer import DocumentAnalysisClient
+from azure.ai.documentintelligence import DocumentIntelligenceClient
+
+openai_client = AzureOpenAI(
+    azure_endpoint=os.getenv("AZURE_ENDPOINT"), 
+    api_key=os.getenv("AZURE_KEY"),  
+    api_version="2024-06-01")
+
+#### Load the Sample Invoice File
+
+file_name="./uploads/Sample_Invoice.pdf"
+
+#### Define a function to ADI parsed contents using Azure Document Intelligence Client
+
+def get_azure_parsed_contents(file_data):
+
+    adi_end_point=os.getenv("AZURE_ENDPOINT")
+    adi_api_key=os.getenv("AZURE_KEY")
+
+    document_analysis_client=DocumentIntelligenceClient(
+            endpoint=adi_end_point, 
+            credential=AzureKeyCredential(adi_api_key)
+            )
+    
+    poller=document_analysis_client.begin_analyze_document("prebuilt-invoice",
+                analyze_request=file_data,
+                content_type="application/octet-stream"
+                )
+    
+    result = poller.result()
+
+    return result
+
+st_time=time.time()
+file_data = open(file_name, "rb")
+adi_response=get_azure_parsed_contents(file_data)
+en_time=time.time()
+print(f"Time elapsed: {np.round(en_time-st_time,2)} seconds.")
+
+Time elapsed: 54.5 seconds.
+
+
