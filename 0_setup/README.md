@@ -33,3 +33,5 @@ Contains submodules DocumentIntelligenceAdministrationClient','DocumentIntellige
 Contains submodules such as DocumentAnalysisClient, FormRecognizerClient among many others.
 
 <img width="436" alt="image" src="https://github.com/user-attachments/assets/2ee5723b-b05c-439b-8105-f4698bbbc850">
+
+Earlier Document Intelligence was part of formrecognizer, but now a seperate submodules. It is recommended to use the Document Intellgence from within azure module and not from formrecognizer as that contains the most updated components.
