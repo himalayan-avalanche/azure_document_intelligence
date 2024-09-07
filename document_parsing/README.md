@@ -40,11 +40,6 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.formrecognizer import DocumentAnalysisClient
 from azure.ai.documentintelligence import DocumentIntelligenceClient
 
-openai_client = AzureOpenAI(
-    azure_endpoint=os.getenv("AZURE_ENDPOINT"), 
-    api_key=os.getenv("AZURE_KEY"),  
-    api_version="2024-06-01")
-
 #### Load the Sample Invoice File
 
 file_name="./uploads/Sample_Invoice.pdf"
