@@ -2,7 +2,7 @@
 
 https://learn.microsoft.com/en-us/python/api/overview/azure/ai-documentintelligence-readme?view=azure-python-preview
 
-## 1. Installing the python form recognizer livbrary. 
+## 1. Installing the python form recognizer library. 
 python -m pip install azure-ai-documentintelligence
 
 ## 2. Create a Cognitive Services or Document Intelligence resource
@@ -11,12 +11,12 @@ https://portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer
 
 <img width="932" alt="image" src="https://github.com/user-attachments/assets/9d9258b0-782d-4991-b97b-84f0edc25162">
 
-## 3. Getting ednpoint and keys.
-Using the end point and api key, we can initiate a connection to axure document intelligence.
+## 3. Getting endpoint and keys.
+Using the end point and api key, we can initiate a connection to azure document intelligence.
 
 <img width="1302" alt="image" src="https://github.com/user-attachments/assets/51885571-559a-4e13-a1b8-06ee7dd7e3fe">
 
-## 4. Next understaidng modeuls and submodules offered within document intelligence.
+## 4. Next understaidng modules and submodules offered within document intelligence.
 
 ### 4.1 The azure module:
 Contains submodule ai, core and profiles. The azure.ai submodule contains documentintelligence and formrecognizer
@@ -33,3 +33,5 @@ Contains submodules DocumentIntelligenceAdministrationClient','DocumentIntellige
 Contains submodules such as DocumentAnalysisClient, FormRecognizerClient among many others.
 
 <img width="436" alt="image" src="https://github.com/user-attachments/assets/2ee5723b-b05c-439b-8105-f4698bbbc850">
+
+Earlier Document Intelligence was part of formrecognizer, but now a seperate submodules. It is recommended to use the Document Intellgence from within azure module and not from formrecognizer as that contains the most updated components.
