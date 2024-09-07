@@ -98,7 +98,29 @@ adi_response['pages'][0].keys()
 ##### dict_keys(['pageNumber', 'angle', 'width', 'height', 'unit', 'words', 'lines', 'spans'])
 ```
 There is only one page in this input document. We can count total number of words in the document by:
+
 ```python
 len(adi_response['pages'][0]['words'])
 ##### 253
+
+adi_response['pages'][0]['words'][:2]
+##### [{'content': 'Spa', 'polygon': [2.4927, 1.0217, 3.6913, 1.0026, 3.7056, 1.6185, 2.507, 1.6328], 'spans': [{'offset': 0, 'length': 3}]},
+ {'content': 'Supplies', 'polygon': [2.6169, 1.7378, 4.9472, 1.7283, 4.9472, 2.3537, 2.6169, 2.3633], 'spans': [{'offset': 4, 'length': 8}]}]
+
+adi_response['pages'][0]['spans']
+##### [{'offset': 0, 'length': 1490}]
+
+adi_response['pages'][0]['lines']
+##### 126
+
+adi_response['pages'][0]['width']
+##### 8.5
+
+adi_response['pages'][0]['height']
+##### 11
+
+adi_response['pages'][0].keys()
+##### dict_keys(['pageNumber', 'angle', 'width', 'height', 'unit', 'words', 'lines', 'spans'])
+
+
 ```
