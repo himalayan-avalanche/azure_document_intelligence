@@ -73,4 +73,11 @@ print(f"Time elapsed: {np.round(en_time-st_time,2)} seconds.")
 
 Time elapsed: 54.5 seconds.
 
+print(type(adi_response))
+<class 'azure.ai.documentintelligence.models._models.AnalyzeResult'>
+
+print(adi_response.keys())
+dict_keys(['apiVersion', 'modelId', 'stringIndexType', 'content', 'pages', 'tables', 'paragraphs', 'styles', 'contentFormat', 'sections', 'figures'])
+
+
 
