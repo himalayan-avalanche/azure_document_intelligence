@@ -22,6 +22,7 @@ Refer this link for model details: : https://learn.microsoft.com/en-us/azure/ai-
 
 ## Example of ID Document Model ID
 
-<img width="735" alt="image" src="https://github.com/user-attachments/assets/fcdebba4-ffbd-41fb-ae6f-3f09ae7821b4">
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/bd741971-938c-4ba2-9249-74f59bae9cd7">
+
 
 
