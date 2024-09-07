@@ -15,3 +15,6 @@ Using Azure Document Intelligence (ADI), once can parse various document types s
 
 
 Refer this link for model details: : https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/language-support-prebuilt?view=doc-intel-4.0.0&tabs=languages%2Cthermal
+Here is an example of supported ID Document Model ID:
+
+![Uploading image.png…]()
