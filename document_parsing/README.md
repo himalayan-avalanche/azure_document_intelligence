@@ -78,10 +78,11 @@ print(type(adi_response))
 print(adi_response.keys())
 ##### dict_keys(['apiVersion', 'modelId', 'stringIndexType', 'content', 'pages', 'tables', 'styles', 'documents', 'contentFormat'])
 
+"""
 apiVersion:       This is API version used. The current api version is "'2024-02-29-preview'"
 modelId:          This is model ID used. Here it is "prebuilt-invoice"
 content:          This is content of the document as parsed by ADI client.
 pages:            Number of pages in the input document.
 tables:           This tables content in the document. Tables includes list of any table like content in the input documents and not necsssarily explit tables from document.
 documents:        Contains document specific contents such as ['docType', 'boundingRegions', 'fields', 'confidence', 'spans'].
-
+"""
