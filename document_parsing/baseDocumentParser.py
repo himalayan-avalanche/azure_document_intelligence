@@ -195,8 +195,8 @@ class documentParser:
             items=next(p_iter)
             row=[[items['field'], items['value'], items['source_id']]]
             tmp=pd.concat([tmp,pd.DataFrame(row, columns=tmp.columns)])
-    
-        return tmp.sort_values(['source_id'])[['data element','data value']]
+
+        return tmp.sort_values(['source_id'])[['data element','data value']].reset_index(drop=True)
     
     def get_table_col_names(self, doc_json):
         
@@ -216,6 +216,7 @@ class documentParser:
         return col_names
     
     def get_table_dataframe(self, doc_json, table_cols_to_data_elements_dict, data_elements_order):
+        import string
         table_data=doc_json['table_data']['1']
         n_rows=table_data['row_count']
         n_cols=table_data['column_count']
@@ -249,5 +250,10 @@ class documentParser:
         tmp_df=tmp_df.rename(columns=table_cols_to_data_elements_dict)
         a=[[x,y] for x,y in data_elements_order.items() if x in table_cols_to_data_elements_dict.values()]
         col_names_final=[x[0] for x in a]
+
+        tmp_df=tmp_df[col_names_final]
+
+        if all(x in string.punctuation for x in tmp_df.iloc[-1]):
+            tmp_df=tmp_df.iloc[:-1]
         
-        return tmp_df[col_names_final]
+        return tmp_df
