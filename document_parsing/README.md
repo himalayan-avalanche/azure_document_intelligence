@@ -43,6 +43,12 @@ from azure.ai.documentintelligence import DocumentIntelligenceClient
 #### Load the Sample Invoice File
 
 file_name="./uploads/Sample_Invoice.pdf"
+```
+#### Sample Invoice file
+
+<img width="660" alt="image" src="https://github.com/user-attachments/assets/d00c7399-5a7c-48c8-9600-0425c76001b4">
+
+```python
 
 #### Define a function to ADI parsed contents using Azure Document Intelligence Client
 
