@@ -248,8 +248,10 @@ table_cols_to_data_elements_dict
 
 para_dict=documentParser.get_para_dict(response_json)
 documentParser.get_para_df(para_dict)
+```
 <img width="302" alt="image" src="https://github.com/user-attachments/assets/68dd98e8-4a9d-4c4c-b16f-f709cac009d0">
 
+```python
 #### Next extract the table level data elements dataframe.
 
 table_list=documentParser.get_table_dict(response_json)
@@ -271,8 +273,7 @@ documentParser.get_table_col_names(doc_json)
 data_elements_order={x.strip():i for i,x in enumerate(data_elements.split(","))}
 table_df=documentParser.get_table_dataframe(doc_json, table_cols_to_data_elements_dict, data_elements_order)
 table_df
-
+```
 <img width="680" alt="image" src="https://github.com/user-attachments/assets/9698d570-f958-4dd2-8281-a1996abe46b5">
 
-```
 
