@@ -1,4 +1,4 @@
-# Document Parsing with Azure Document Intelligence
+# Document Parsing with LLMs: Exploting Azure Document Intelligence and OpenAI
 
 ## Setup
 Refer to https://github.com/himalayan-avalanche/azure_document_intelligence/tree/main/setup for details on installing necessary modeuls and setting up the document intelligence studio.
