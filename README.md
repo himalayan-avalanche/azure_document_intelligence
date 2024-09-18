@@ -1,4 +1,4 @@
-# Exploiting Azure Document Intelligence Capabilities
+# Document Parsing with Azure Document Intelligence
 
 ## Setup
 Refer to https://github.com/himalayan-avalanche/azure_document_intelligence/tree/main/setup for details on installing necessary modeuls and setting up the document intelligence studio.
